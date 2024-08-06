@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "**/typescript/*.json": "jsonc",
+    "**/tsconfig.json": "jsonc",
+    "turbo.json": "jsonc"
+  }
+}

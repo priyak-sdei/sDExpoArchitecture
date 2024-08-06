@@ -1,0 +1,17 @@
+/* global.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --pink-custom: #34d399;
+    --primaryme: #34d399;
+  }
+
+  .dark:root {
+    --pink-custom: #34d399;
+    --primaryme: #34d399;
+  }
+}

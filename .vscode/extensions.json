@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "burkeholland.simple-react-snippets",
+    "dbaeumer.vscode-eslint",
+    "expo.vscode-expo-tools",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "yzhang.markdown-all-in-one",
+    "GitHub.vscode-github-actions"
+  ]
+}
