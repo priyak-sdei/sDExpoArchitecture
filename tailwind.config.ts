@@ -1,5 +1,5 @@
 // /** @type {import('tailwindcss').Config} */
-//const fonts = require("./src/constants/fonts");
+
 const fonts = require("./src/theme/fonts");
 const theme = require("./src/theme/theme");
 module.exports = {
@@ -8,6 +8,7 @@ module.exports = {
     "./app/**/*.{js,jsx,ts,tsx}",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -51,6 +52,12 @@ module.exports = {
         "text-bold": [fonts.PoppinsBold, "sans-serif"],
         "text-light": [fonts.PoppinsLight, "sans-serif"],
       },
+    },
+  },
+  variants: {
+    extend: {
+      textColor: ["dark"], // Enable dark mode variant for text color
+      backgroundColor: ["dark"], // Enable dark mode variant for background color
     },
   },
   plugins: [],
