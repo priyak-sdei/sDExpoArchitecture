@@ -18,6 +18,11 @@
       "eslint ."
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx eslint ."
+    }
+  },
   "jest": {
     "preset": "jest-expo"
   },
