@@ -33,7 +33,7 @@ export default function RootLayout() {
     return null;
   }
   const CUSTOME_THEME: Theme = {
-    dark: colorScheme === "dark" ? true : false,
+    dark: colorScheme == "dark" ? true : false,
     // dark: true,
     colors: {
       //     background: "hsl(0 0% 100%)",
