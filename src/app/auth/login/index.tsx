@@ -10,7 +10,7 @@ export default function Login() {
         backgroundColor: "red",
       }}
     >
-      <Text>Login Screen</Text>
+      <Text>Login Screen111</Text>
     </View>
   );
 }

@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Login() {
@@ -10,7 +11,10 @@ export default function Login() {
         backgroundColor: "red",
       }}
     >
-      <Text>Login Screen</Text>
+      <Text>Login11 Screen</Text>
+      <Link href="/auth/login">
+        <Text>hii</Text>
+      </Link>
     </View>
   );
 }
